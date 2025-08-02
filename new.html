@@ -1,65 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio | Fernanda Costa</title>
-    <link rel="stylesheet" href="new.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Fernanda Costa</title>
+  <link rel="stylesheet" href="new.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Fernanda Costa Feitoza </h1>
-        <p>Estudo na área de Engenharia de Software e atuo como desenvolvedora focada em back-end. Tenho familiaridade com HTML e Python, e estou sempre em busca de aprender e evoluir na área da programação.</p>
-        <nav>
-            <ul>
-              <li><a href="#projetos">Projetos</a></li>
-              <li><a href="#habilidades">Habilidades</a></li>
-              <li><a href="#contato">Contato</a></li>
-            </ul>
-          </nav>
-    </header>
+  <header class="header">
+    <div class="header__container">
+      <h1 class="header__title">Fernanda Costa Feitoza</h1>
+      <p class="header__subtitle">Desenvolvedora Back-End | Estudante de Engenharia de Software</p>
+      <p class="header__intro">Apaixonada por tecnologia, com foco em back-end, especialmente com Python. Busco constantemente aprimorar minhas habilidades e colaborar em projetos inovadores.</p>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#projetos" class="nav__link">Projetos</a></li>
+          <li><a href="#habilidades" class="nav__link">Habilidades</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-        <section id="sobre">
-          <h2>Sobre Mim</h2>
-          <p>Tenho conhecimento básico em HTML e Python, e estou constantemente buscando aprimorar minhas habilidades na área da programação.</p>
-        </section>
-    
-        <section id="projetos">
-          <h2>Projetos</h2>
-          <article>
-            <h3>Login page</h3>
-            <p>Interface de login desenvolvida com HTML puro, com foco em estrutura semântica e organização do código.</p>
-            <a href="#">Ver projeto</a>
-          </article>
-          <article>
-            <h3>HTML5</h3>
-            <p> Interface de Idcliente desenvolvida com HTML.</p>
-            <a href="#">Ver projeto</a>
-          </article>
-        </section>
-    
-        <section id="habilidades">
-          <h2>Habilidades</h2>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Python</li>
-          </ul>
-        </section>
-      </main>
-    
-      <aside>
-        <p><strong>Dica:</strong> Sempre pratique e compartilhe seus projetos no GitHub!</p>
-      </aside>
-    
-      <footer id="contato">
-        <p>Contato: <a href="mailto:email@exemplo.com">fernandagautney@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/fernanda-costa-1b2a51259/">linkedin.com/in/Fernanda Costa</a></p>
-      </footer>
-    
-    </body>
-    </html>
-    
+  <main class="main">
+    <section id="sobre" class="section section--sobre">
+      <h2 class="section__title">Sobre Mim</h2>
+      <p>Sou estudante de Engenharia de Software, com foco em desenvolvimento back-end. Tenho conhecimento em Python, HTML5 e estou aprendendo frameworks modernos para ampliar meu repertório técnico. Sou dedicada, curiosa e gosto de transformar ideias em soluções reais.</p>
+    </section>
+
+    <section id="projetos" class="section section--projetos">
+      <h2 class="section__title">Projetos</h2>
+      <div class="projetos__grid">
+        <article class="projeto">
+          <h3 class="projeto__title">Login Page</h3>
+          <p class="projeto__desc">Interface de login desenvolvida com HTML e CSS, aplicando boas práticas de semântica e responsividade.</p>
+          <a href="#" class="projeto__link">Ver projeto</a>
+        </article>
+        <article class="projeto">
+          <h3 class="projeto__title">Sistema de Cadastro</h3>
+          <p class="projeto__desc">Sistema simples de cadastro com HTML e lógica em Python para validação de dados (em desenvolvimento).</p>
+          <a href="#" class="projeto__link">Ver projeto</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section section--habilidades">
+      <h2 class="section__title">Habilidades Técnicas</h2>
+      <ul class="habilidades__lista">
+        <li>Python (básico/intermediário)</li>
+        <li>HTML5 & CSS3</li>
+        <li>Lógica de Programação</li>
+        <li>Versionamento com Git & GitHub</li>
+        <li>Conhecimentos básicos de APIs REST</li>
+      </ul>
+    </section>
+  </main>
+
+  <aside class="aside">
+    <p><strong>Dica:</strong> A prática constante e a contribuição em projetos reais são os caminhos mais sólidos para o crescimento na programação. Sigo este lema diariamente.</p>
+  </aside>
+
+  <footer id="contato" class="footer">
+    <p>📧 E-mail: <a href="mailto:fernandagautney@gmail.com">fernandagautney@gmail.com</a></p>
+    <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/fernanda-costa-1b2a51259/" target="_blank">linkedin.com/in/fernanda-costa</a></p>
+  </footer>
 </body>
 </html>
